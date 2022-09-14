@@ -31,3 +31,15 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.todo-list::-webkit-scrollbar {
+    width: 8px;
+    display: block;
+    background-color: rgba(20, 20, 20, 0.062);
+    border-radius: 5px;
+}
+
+.todo-list::-webkit-scrollbar-thumb {
+    background-color: rgba(231, 44, 244, 0.705);
+    border-radius: 5px;
+}
